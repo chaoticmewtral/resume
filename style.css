@@ -5,3 +5,10 @@ body {
     margin: 0 auto;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
