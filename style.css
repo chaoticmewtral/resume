@@ -1,14 +1,25 @@
-body {
+#content {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    max-width: 900px;
 }
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    margin: 10px 25px 
 }
 
 li a {
     text-decoration: none;
+}
+
+#contact {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
 }
