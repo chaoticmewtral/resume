@@ -35,3 +35,15 @@ li a {
 #contact h2 {
     margin: 5px 10px;
 }
+
+.job {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+}
+
+.job ul {
+    display: flex;
+    flex-flow: column;
+    align-content: flex-start;
+}
