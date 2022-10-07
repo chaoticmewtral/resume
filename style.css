@@ -8,7 +8,7 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 900px;
-    background-color: aqua;
+    background-color: rgb(6, 171, 196);
     padding: 10px;
 }
 
@@ -29,4 +29,9 @@ li a {
     flex-flow: column;
     align-items: flex-start;
     margin: 10px 25px;
+}
+
+#contact h1,
+#contact h2 {
+    margin: 5px 10px;
 }
