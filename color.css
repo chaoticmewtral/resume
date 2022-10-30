@@ -1,0 +1,19 @@
+:root {
+    /* Bright Blue Monotone */
+    --dark-color: #438797;
+    --medium-color: #59a9b5;
+    --light-color: #d0e8e9;
+    --white-color: #e2f3f9;
+
+    /* Navy and Mint */
+    --dark-color: #2b2741;
+    --medium-color: #8febd5;
+    --light-color: #ff9480;
+    --white-color: #e7f7f4;
+
+    /* Deep Teal and Ivory */
+    --dark-color: #043442;
+    --medium-color: #53dbc4;
+    --light-color: #a9ede2;
+    --white-color: #e5e7e7;
+}
