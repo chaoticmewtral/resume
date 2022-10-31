@@ -119,3 +119,12 @@ h2 {
     padding: .2em;
     margin: 0;
 }
+
+.experience {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.description {
+
+}
