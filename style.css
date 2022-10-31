@@ -33,6 +33,7 @@ nav {
     background-color: var(--dark-color);
     color: var(--medium-color);
     box-shadow: 0 0 5px var(--dark-color);
+    z-index: 1;
 }
 
 h1,
@@ -89,5 +90,5 @@ main {
 
 h2 {
     position: sticky;
-    top: 0;
+    top: 2.2em;
 }
