@@ -20,6 +20,7 @@ body {
     margin: 0 auto;
     background-color: var(--light-color);
     box-shadow: 0 0 5px;
+    display: block;
 }
 
 nav {
@@ -97,4 +98,24 @@ h2 {
     font-size: .8em;
     color: var(--dark-color);
     list-style: none;
+}
+
+#skills>ul>li {
+    padding-left: .5em;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-heading {
+    position: sticky;
+    top: 2.2em;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    width: 100%;
+    padding: .2em;
+    margin: 0;
 }
