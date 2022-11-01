@@ -1,18 +1,8 @@
 :root {
-    --dark-color: #043442;
-    --medium-color: #53dbc4;
-    --light-color: #a9ede2;
-    --white-color: #e5e7e7;
-
-    --dark-color: #2b2741;
-    --medium-color: #ff9480;
-    --light-color: #8febd5;
-    --white-color: #e7f7f4;
-
-    --dark-color: #438797;
-    --medium-color: #59a9b5;
-    --light-color: #d0e8e9;
-    --white-color: #e2f3f9;
+    --dark-color: #05445E;
+    --medium-color: #189ab4;
+    --light-color: #75e6da;
+    --white-color: #d4f1f4;
 }
 
 * {
@@ -52,6 +42,7 @@ h2,
 h3 {
     margin: 0;
     margin-block: 0;
+    padding: 0;
 }
 
 nav>p {
@@ -117,7 +108,7 @@ main {
 
 .section-heading {
     position: sticky;
-    top: 2.2em;
+    top: 3.2em;
     background-color: var(--light-color);
     color: var(--dark-color);
     width: 100%;
