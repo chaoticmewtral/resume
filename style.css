@@ -3,6 +3,16 @@
     --medium-color: #53dbc4;
     --light-color: #a9ede2;
     --white-color: #e5e7e7;
+
+    --dark-color: #2b2741;
+    --medium-color: #ff9480;
+    --light-color: #8febd5;
+    --white-color: #e7f7f4;
+
+    --dark-color: #438797;
+    --medium-color: #59a9b5;
+    --light-color: #d0e8e9;
+    --white-color: #e2f3f9;
 }
 
 * {
@@ -73,7 +83,7 @@ nav>ul>li>a:hover {
 header {
     position: relative;
     padding: 0 .8em 1em;
-    border-bottom: 1px solid var(--dark-color)
+    border-bottom: 3px double var(--dark-color);
 }
 
 #about {
@@ -85,13 +95,7 @@ header {
 }
 
 main {
-    padding: 0 .8em;
     position: relative;
-}
-
-h2 {
-    position: sticky;
-    top: 2.2em;
 }
 
 #skills ul li {
@@ -108,6 +112,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border-bottom: 3px double var(--dark-color);
 }
 
 .section-heading {
@@ -116,13 +121,15 @@ h2 {
     background-color: var(--light-color);
     color: var(--dark-color);
     width: 100%;
-    padding: .2em;
+    padding: .5em;
     margin: 0;
 }
 
 .experience {
     display: grid;
     grid-template-columns: 30% 70%;
+    border-bottom: .5px inset var(--dark-color);
+    margin-bottom: 1em;
 }
 
 .description {
@@ -142,4 +149,14 @@ h2 {
 .title {
     font-size: .9em;
     padding-left: 1em;
+}
+
+.dates {
+    font-size: .9em;
+    font-style: italic;
+}
+
+svg {
+    color: var(--dark-color);
+    background-color: var(--medium-color);
 }
