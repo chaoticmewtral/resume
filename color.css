@@ -29,4 +29,23 @@
     --accent-color: #e57f84;
     --light-color: #a8fef1;
     --white-color: #f4eae6;
+
+    /* Slumber */
+    --dark-color: #051622;
+    --medium-color: #1ba098;
+    --light-color: #deb992;
+
+    /* Coffee Roasters */
+    --dark-color: #425664;
+    --medium-color: #c6ad8f;
+    --accent-color: #f25965;
+    --light-color: #bffff3;
+    --white-color: #f6f4f2;
+
+    /* Blast Galaxy */
+    --dark-color: #0f0c24;
+    --medium-color: #a350a3;
+    --accent-color: #c1436d;
+    --light-color: #3ea2c4;
+    --white-color: #20c3bc;
 }
