@@ -1,24 +1,26 @@
 :root {
-    --dark-color: #05445E;
-    --medium-color: #189ab4;
-    --light-color: #75e6da;
-    --white-color: #d4f1f4;
+    --dark-color: #2f5061;
+    --medium-color: #4297a0;
+    --accent-color: #e57f84;
+    --light-color: #a8fef1;
+    --white-color: #f4eae6;
 }
 
 * {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     box-sizing: border-box;
+    color: var(--dark-color);
 }
 
 html {
-    background-color: var(--white-color);
+    background-color: var(--light-color);
 }
 
 body {
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    background-color: var(--light-color);
+    background-color: var(--white-color);
     box-shadow: 0 0 5px;
     display: block;
 }
@@ -50,13 +52,14 @@ nav>p {
     font-size: 2em;
     font-weight: bold;
     margin: .2em 0;
+    color: var(--white-color);
 }
 
 nav>ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: .7em;
+    gap: .9em;
     margin: 0;
     padding: 0 .8em;
 }
@@ -65,10 +68,13 @@ nav>ul>li>a {
     text-decoration: none;
     color: var(--medium-color);
     font-weight: bold;
+    border-radius: 2px;
+    padding: 1px;
 }
 
 nav>ul>li>a:hover {
-    text-decoration: underline;
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 header {
@@ -82,7 +88,15 @@ header {
     flex-direction: row;
     position: relative;
     justify-content: space-between;
-    align-items: center;
+}
+
+#info {
+    width: 30%;
+    margin-top: 1.4em;
+}
+
+#about>p {
+    width: 70%;
 }
 
 main {
@@ -109,11 +123,18 @@ main {
 .section-heading {
     position: sticky;
     top: 3.2em;
-    background-color: var(--light-color);
     color: var(--dark-color);
+    background-color: var(--white-color);
     width: 100%;
     padding: .5em;
     margin: 0;
+}
+
+.line {
+    height: .5em;
+    width: 80%;
+    background-image: linear-gradient( to right, var(--dark-color), var(--white-color));
+    border-radius: 2px;
 }
 
 .experience {
@@ -140,14 +161,10 @@ main {
 .title {
     font-size: .9em;
     padding-left: 1em;
+    color: var(--medium-color);
 }
 
 .dates {
     font-size: .9em;
     font-style: italic;
-}
-
-svg {
-    color: var(--dark-color);
-    background-color: var(--medium-color);
 }

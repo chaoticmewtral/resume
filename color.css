@@ -22,4 +22,11 @@
     --medium-color: #189ab4;
     --light-color: #75e6da;
     --white-color: #d4f1f4;
+
+    /* San Francisco Clouded */
+    --dark-color: #2f5061;
+    --medium-color: #4297a0;
+    --accent-color: #e57f84;
+    --light-color: #a8fef1;
+    --white-color: #f4eae6;
 }
