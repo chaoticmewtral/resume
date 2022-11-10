@@ -151,7 +151,11 @@ main {
     background-color: var(--white-color);
     width: 100%;
     padding: .5em;
-    margin: 0;
+    margin: 0 0 10px 0;
+}
+
+#experience>div:nth-child(2) {
+    margin-top: 3em;
 }
 
 .line {
@@ -160,6 +164,8 @@ main {
     background-image: linear-gradient( to right, var(--dark-color), var(--white-color));
     border-radius: 2px;
 }
+
+
 
 .experience {
     display: grid;
